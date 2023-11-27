@@ -1,6 +1,5 @@
 package com.example.appmobile2023
 
-// Importe pacotes necessários
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
