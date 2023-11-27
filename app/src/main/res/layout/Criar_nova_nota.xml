@@ -1,31 +1,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/backgroundColor">
+    android:padding="16dp">
 
     <EditText
         android:id="@+id/editTextTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_title"
-        android:backgroundTint="@android:color/white" />
+        android:backgroundTint="@android:color/white"
+        android:hint="@string/hint_title" /><![CDATA[
 
-    <EditText
+    ]]><EditText
         android:id="@+id/editTextContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/white"
         android:hint="@string/hint_content"
-        android:backgroundTint="@android:color/white" /> <!-- Utiliza a string de hint para o conteúdo e define a cor de fundo -->
+    tools:ignore="ExtraText" />
 
     <Button
         android:id="@+id/buttonCreateNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/buttonColor"
-        android:text="@string/button_text"
+        android:text="CRIAR NOVA NOTA"
         android:textColor="@android:color/yellow" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </LinearLayout>
