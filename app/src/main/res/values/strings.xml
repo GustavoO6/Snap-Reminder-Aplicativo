@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Snap Reminder</string>
     <string name="update_notes_set_title_title_content_content_where_id_id">UPDATE notes SET title = :title, content = :content WHERE id = :id</string>
+    <string name="hint_title" />
+    <string name="hint_content" />
+    <string name="button_text" />
 </resources>
 
 <resources>

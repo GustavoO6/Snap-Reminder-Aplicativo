@@ -1,21 +1,17 @@
-<!-- screen_create_note.xml - Layout for creating a new note -->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/backgroundColor"> <!-- Altera a cor de fundo do layout -->
+    android:background="@color/backgroundColor">
 
-    <!-- Título da Nota -->
     <EditText
         android:id="@+id/editTextTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_title"
-        android:backgroundTint="@android:color/white" /> <!-- Utiliza a string de hint para o título e define a cor de fundo -->
+        android:backgroundTint="@android:color/white" />
 
-    <!-- Conteúdo da Nota -->
     <EditText
         android:id="@+id/editTextContent"
         android:layout_width="match_parent"
@@ -24,15 +20,12 @@
         android:hint="@string/hint_content"
         android:backgroundTint="@android:color/white" /> <!-- Utiliza a string de hint para o conteúdo e define a cor de fundo -->
 
-    <!-- Botão para Criar Nota -->
     <Button
         android:id="@+id/buttonCreateNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/yellow" <!-- Define a cor do texto -->
-    android:text="@string/button_text"
-    android:background="@color/buttonColor" /> <!-- Utiliza a string de texto do botão e a cor do botão -->
-
-    <!-- Adicione outros elementos conforme necessário -->
+        android:background="@color/buttonColor"
+        android:text="@string/button_text"
+        android:textColor="@android:color/yellow" />
 
 </LinearLayout>
