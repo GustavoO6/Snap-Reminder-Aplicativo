@@ -9,6 +9,6 @@
         android:layout_width="373dp"
         android:layout_height="180dp"
         android:text="VER TODAS AS NOTAS SALVAS"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="72dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="102dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
