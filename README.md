@@ -9,8 +9,11 @@ Design Intuitivo: Interface limpa e amigável para uma experiência de usuário 
 Por que escolher o Snap Reminder?
 
 Rápido e Eficiente: Capture e acesse suas notas em tempo recorde.
+
 Lembretes Personalizáveis: Nunca esqueça uma tarefa com lembretes flexíveis.
+
 Design Elegante: Uma experiência de usuário moderna e intuitiva.
+
 Faça do Snap Reminder seu companheiro diário para manter suas ideias organizadas e nunca perder um lembrete crucial. Baixe agora e simplifique sua vida.
 
 Permissões:
