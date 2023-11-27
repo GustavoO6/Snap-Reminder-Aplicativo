@@ -16,6 +16,7 @@ Faça do Snap Reminder seu companheiro diário para manter suas ideias organizad
 Permissões:
 
 Câmera: Adicione imagens às suas notas para uma experiência mais rica.
+
 Notificações: Receba lembretes oportunos para suas notas.
 
 Não perca tempo, comece a utilizar o Snap Reminder hoje!
