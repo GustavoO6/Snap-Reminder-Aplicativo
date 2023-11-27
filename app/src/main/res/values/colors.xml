@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Defina a cor do botão -->
+    <color name="buttonColor">#0511c2</color>
+
+    <!-- Defina a cor de fundo da tela -->
+    <color name="backgroundColor">#000000</color>
+</resources>

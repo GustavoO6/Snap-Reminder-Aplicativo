@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/Criar_novanota"
+        android:id="@+id/screen_create_note"
+        android:visibility="gone" />
+
+    <include layout="@layout/Visualizar_todas_notas"
+        android:id="@+id/screen_view_note"
+        android:visibility="gone" />
+
+    <include layout="@layout/Editar_notas"
+        android:id="@+id/screen_edit_note"
+        android:visibility="gone" />
+
+    <include layout="@layout/Deletar_umaoumaisnotas"
+        android:id="@+id/screen_delete_note"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+</LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+</LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+
+</LinearLayout>
