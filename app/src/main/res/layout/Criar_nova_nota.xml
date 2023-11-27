@@ -1,25 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<!-- screen_create_note.xml - Layout for creating a new note -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"> <!-- Altera a cor de fundo do layout -->
 
+    <!-- Título da Nota -->
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_title"
+        android:backgroundTint="@android:color/white" /> <!-- Utiliza a string de hint para o título e define a cor de fundo -->
+
+    <!-- Conteúdo da Nota -->
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_content"
+        android:backgroundTint="@android:color/white" /> <!-- Utiliza a string de hint para o conteúdo e define a cor de fundo -->
+
+    <!-- Botão para Criar Nota -->
     <Button
-        android:id="@+id/button"
-        android:layout_width="395dp"
-        android:layout_height="211dp"
-        android:text="CRIAR NOVA NOTA"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="93dp"
-        tools:ignore="MissingConstraints" />
+        android:id="@+id/buttonCreateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/yellow" <!-- Define a cor do texto -->
+    android:text="@string/button_text"
+    android:background="@color/buttonColor" /> <!-- Utiliza a string de texto do botão e a cor do botão -->
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="104dp"
-        android:layout_height="81dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="12dp"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Adicione outros elementos conforme necessário -->
+
+</LinearLayout>
