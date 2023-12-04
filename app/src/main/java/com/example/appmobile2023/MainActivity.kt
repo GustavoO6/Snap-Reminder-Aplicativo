@@ -8,14 +8,14 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main) // Define o layout para a atividade principal
+        setContentView(R.layout.activity_main)  //Define o layout para a atividade principal.
     }
 }
 
 data class Note(
-    val id: Int,    // Identificador único para cada nota
-    var title: String?,  // Título da nota
-    var content: String?  // Conteúdo da nota
+    val id: Int,    //Identificador único para cada nota.
+    var title: String?,  //Título da nota.
+    var content: String?  //Conteúdo da nota.
 ) {
 
 }
@@ -73,7 +73,6 @@ private fun Parcel.writeTypedList(notes: List<Note>) {
 
 }
 
-
 import androidx.room.Database
 import androidx.room.RoomDatabase
 
@@ -113,15 +112,15 @@ interface NoteDao {
     @Insert
     suspend fun insert(note: Note)
 
-    // Atualizar uma nota existente
+    //Atualizar uma nota existente.
     @Query("UPDATE notes SET title = :title, content = :content WHERE id = :id")
     suspend fun update(id: Int, title: String, content: String)
 
-    // Excluir uma nota
+    //Excluir uma nota.
     @Delete
     suspend fun delete(note: Note)
 
-    // Obter todas as notas do banco de dados
+    //Obter todas as notas do banco de dados.
     @Query("SELECT * FROM notes")
     suspend fun getAllNotes(): List<Note>
 }
